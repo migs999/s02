@@ -1,0 +1,113 @@
+/*instruction.txt*/
+
+Activity:
+
+Create sample documents following the models we have created for users and courses for our booking-system.
+
+user1 and user2 are the ids for the user documents.
+course1 and course2 are the ids for the course documents.
+
+user1 is enrolled in course1.
+user2 is enrolled in course2.
+
+2 Model Booking System with Embedding
+
+user {
+
+	id - unique identifier for the document,
+	username,
+	firstName,
+	lastName,
+	email,
+	password,
+	mobileNumber,
+	isAdmin,
+	enrollments: [
+		{
+
+			id - document identifier,
+			courseId - the unique identifier for the course,
+			courseName - optional,
+			isPaid,
+			dateEnrolled
+		}
+	]
+
+}
+
+
+course {
+
+	id - unique for the document
+	name,
+	description,
+	price,
+	slots,
+	schedule,
+	instructor,
+	isActive,
+	enrollees: [
+
+		{
+			id - document identifier,
+			userId,
+			userName(optional),
+			isPaid,
+			dateEnrolled
+		}
+
+	]
+
+}
+
+
+3 Model Booking System with Referencing
+
+user {
+
+	id - unique identifier for the document,
+	username,
+	firstName,
+	lastName,
+	email,
+	password,
+	mobileNumber,
+	isAdmin
+
+}
+
+
+course {
+
+	id - unique for the document
+	name,
+	description,
+	price,
+	slots,
+	schedule,
+	instructor,
+	isActive
+
+}
+
+enrollment: 
+{
+	id - document identifier,
+	userId,
+	userName(optional),
+	courseId,
+	courseName(optional),
+	isPaid,
+	dateEnrolled
+}
+
+
+Pushing Instructions:
+
+Create a new repo called s02
+
+Initialize your local repo, add and commit with the following message: "Add Activity Code"
+
+Push and link to canvas.
+
+Get the screenshot of your user.json and course.json

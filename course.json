@@ -1,0 +1,39 @@
+/* 1 */
+{
+    "_id" : "631086208ee42484da265132",
+    "name" : "course1",
+    "description" : "course1",
+    "price" : "50k",
+    "slots" : "24",
+    "schedule" : "TTH",
+    "instructor" : "instructor1",
+    "isActive" : "yes",
+    "enrollees" : [ 
+        {
+            "id" : "user1",
+            "userId" : "username1",
+            "isPaid" : "yes",
+            "dateEnrolled" : "07/28/2022"
+        }
+    ]
+}
+
+/* 2 */
+{
+    "_id" : "631086208ee42484da265135",
+    "name" : "course2",
+    "description" : "course2",
+    "price" : "60k",
+    "slots" : "24",
+    "schedule" : "MWF",
+    "instructor" : "instructor2",
+    "isActive" : "yes",
+    "enrollees" : [ 
+        {
+            "id" : "user2",
+            "userId" : "username2",
+            "isPaid" : "yes",
+            "dateEnrolled" : "07/28/2022"
+        }
+    ]
+}

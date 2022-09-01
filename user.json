@@ -1,0 +1,39 @@
+/*1*/
+{
+    "_id" : "631085d88ee42484da26510b",
+    "username" : "username1",
+    "firstName" : "firstName1",
+    "lastName" : "lastName1",
+    "email" : "email1@gmail.com",
+    "password" : "password1",
+    "mobileNumber" : "1234567",
+    "isAdmin" : "no",
+    "enrollments" : [ 
+        {
+            "courseId" : "course1",
+            "courseName" : "course1",
+            "isPaid" : "yes",
+            "dateEnrolled" : "07/28/2022"
+        }
+    ]
+}
+
+/* 2 */
+{
+    "_id" : "631085e38ee42484da265117",
+    "username" : "username2",
+    "firstName" : "firstName2",
+    "lastName" : "lastName2",
+    "email" : "email2@gmail.com",
+    "password" : "password2",
+    "mobileNumber" : "2345678",
+    "isAdmin" : "no",
+    "enrollments" : [ 
+        {
+            "courseId" : "course2",
+            "courseName" : "course2",
+            "isPaid" : "yes",
+            "dateEnrolled" : "07/28/2022"
+        }
+    ]
+}
